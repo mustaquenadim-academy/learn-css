@@ -1,0 +1,15 @@
+/* external css file */
+
+button {
+	height: 48px;
+	width: 120px;
+	background-color: blue;
+	border: 0;
+	border-radius: 8px;
+	color: #eee;
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 24px;
+}

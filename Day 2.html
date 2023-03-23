@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Day 2: HTML + CSS</title>
+
+		<!-- INTERNAL CSS -->
+		<style>
+			/*** CSS SELECTOR ***/
+			/*--- tag/element selector ---*/
+			h1 {
+				font-family: sans-serif;
+			}
+
+			/*--- class selector ---*/
+			.font-72 {
+				font-size: 48px !important;
+			}
+
+			.class-5 {
+				color: green;
+				font-size: 32px;
+				font-weight: bold;
+			}
+
+			.class-2 {
+				color: red;
+			}
+
+			.box {
+				background: blueviolet;
+				/* color: azure; */
+
+				/* height: 100px;
+				width: 100px; */
+
+				border: 5px solid;
+
+				margin: 50px;
+				padding: 50px;
+			}
+
+			/*--- id selector ---*/
+			/* (*) -> asterisk */
+			#id-1 {
+				color: blue;
+				background-color: rgb(32, 151, 172);
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="class-5 font-72">Class Selector</h1>
+		<p id="id-1" class="class-5">
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ipsa
+			doloribus debitis eveniet quas labore hic inventore exercitationem et
+			eius?
+		</p>
+
+		<h1 class="class-2 font-72">This is h1 element</h1>
+		<h2 class="class-2 font-72">This is h2 element</h2>
+		<h3 class="class-5">This is h3 element</h3>
+
+		<!-- height, width, margin, padding, border -->
+		<div class="box">
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis fugit,
+			sed beatae officiis molestias porro reprehenderit a ipsa nisi esse.
+		</div>
+	</body>
+</html>
