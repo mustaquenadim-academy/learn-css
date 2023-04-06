@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Day 6 : CSS Flexbox</title>
+		<style>
+			body {
+				margin: 0;
+			}
+
+			.parent {
+				height: 100vh;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: space-around;
+			}
+
+			.child {
+				height: 50px;
+				width: 50px;
+			}
+
+			.one {
+				background-color: tomato;
+			}
+
+			.two {
+				background-color: greenyellow;
+			}
+
+			.three {
+				background-color: blueviolet;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- CSS Flexbox -->
+		<div class="parent">
+			<div class="child one">1</div>
+			<div class="child two">2</div>
+			<div class="child three">3</div>
+		</div>
+	</body>
+</html>
